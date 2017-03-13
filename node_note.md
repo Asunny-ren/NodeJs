@@ -39,3 +39,48 @@
 * main - main 字段是一个模块ID，它是一个指向你程序的主要项目。就是说，如果你包的名字叫 express，然后用户安装它，然后require("express")
 
 * keywords - 关键字
+
+## node.js REPL(Read Eval Print Loop交互式解释器)表示一个电脑的环境，类似 Window 系统的终端或 Unix/Linux shell，我们可以在终端中输入命令，并接收系统的响应。
+
+* 读取
+
+* 执行
+
+* 打印
+
+* 循环
+
+### REPL 命令
+
+* ctrl + c - 退出当前终端
+
+* ctrl + c - 按下两次,退出node REPL
+
+* ctrl + d - 退出node REPL
+
+* 向上/向下键 - 查看输入的历史命令
+
+* tab - 列出当前命令
+
+* .help - 列出使用命令
+
+* .break - 退出多行表达式
+
+* .clear - 退出多行表达式
+
+* .save filename - 保存当前的node REPL 会话到指定文件
+
+* .load filename - 载入当前node REPL 会话的文件内容
+
+
+## node.js回调函数（Node 所有 API 都支持回调函数）
+
+## node.js事件循环
+
+> node.js是单进程单线程应用程序，但是通过事件和回调支持并发，所以性能非常高
+
+> node.js的每一个API都是异步的，并作为一个独立线程运行，使用异步函数调用，并处理并发。
+
+> node.js基本上所有的事件机制都是用设计模式中观察者模式实现
+
+> node.js 单线程类似进入一个while(true)循环，直到没有事件观察者退出，每个异步事件都生成一个事件观察者，如果有事件发生就调用该回调函数
