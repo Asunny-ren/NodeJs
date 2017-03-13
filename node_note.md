@@ -6,6 +6,16 @@
 
         npm install express -g (全局安装)
 
+    查看所有全局安装的模块 npm ls -g
+
+    更新模块 npm update express
+
+    搜索模块 npm search express
+
+    卸载模块 npm uninstall express
+
+#### npm help 查看npm命令
+
 #### package.json属性说明
 
 * name - 包名
