@@ -16,6 +16,8 @@
 
 #### npm help 查看npm命令
 
+![npmCmd](https://github.com/Asunny-ren/NodeJs/blob/master/node_study_01/npmCmd.png)
+
 #### package.json属性说明
 
 * name - 包名
