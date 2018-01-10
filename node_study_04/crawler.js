@@ -6,15 +6,6 @@ function filterChapters(html) {
 	var $ = cheerio.load(html)
 	var chapters = $('.chapter')
 
-	// [{
-	// 	chapterTitle: '',
-	// 	videos: [
-	// 		title: '',
-	// 		id: ''
-	// 	]
-	// }]
-	//
-
 	var courseData = []
 
 	chapters.each(function(item) {

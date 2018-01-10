@@ -9,21 +9,7 @@ function filterChapters(html) {
 	var chapters = $('.chapter')
 	var title = $('#main .hd h2').text()
 	// var number = parseInt($($('#main .statics .static-item')[1]).find('.js-learn-num').text().trim(), 10)
-	var number = parseInt($('.js-learn-num').text(), 10)
-
-	// courseData = {
-	// 	title: title,
-	// 	videos: [{
-	// 		chapterTitle: '',
-	// 		videos: [
-	// 			title: '',
-	// 			id: ''
-	// 		]
-	// 	}],
-	// 	number: number
-	// }
-	// 
-	
+	var number = parseInt($('.js-learn-num').text(), 10)	
 	
 	var courseData = {
 		title: title,
