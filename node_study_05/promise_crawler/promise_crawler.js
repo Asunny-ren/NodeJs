@@ -9,7 +9,7 @@ function filterChapters(html) {
 	var chapters = $('.chapter')
 	var title = $('#main .hd h2').text()
 	// var number = parseInt($($('#main .statics .static-item')[1]).find('.js-learn-num').text().trim(), 10)
-	var number = parseInt($('.js-learn-num').text(), 10)	
+	var number = parseInt($('.js-learn-num').text(), 10)
 	
 	var courseData = {
 		title: title,
@@ -69,7 +69,7 @@ function getPageAsync(url) {
 			var html = ''
 
 			res.on('data', function(data) {
-				html += data 
+				html += data
 			})
 
 			res.on('end', function() {
